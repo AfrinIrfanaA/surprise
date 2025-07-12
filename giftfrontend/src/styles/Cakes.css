@@ -1,0 +1,68 @@
+.cake-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #f9f9f9;
+  transition: transform 0.2s;
+}
+
+.cake-item:hover {
+  transform: scale(1.05);
+}
+
+.card-body h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-body p {
+  font-size: 1rem;
+}
+
+.card-body button {
+  margin-top: 10px;
+}
+
+.customization-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.customization-box h4 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.customization-box .form-group {
+  margin-bottom: 15px;
+}
+
+.customization-box .form-group label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.customization-box .form-group input {
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.customization-box .btn-success {
+  background-color: #28a745;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.customization-box .btn-success:hover {
+  background-color: #218838;
+}

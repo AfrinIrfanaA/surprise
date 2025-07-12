@@ -1,0 +1,39 @@
+.cta-section {
+  text-align: center;
+  margin-top: 30px;
+  width: 100%; /* Adjust width for mobile view */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-gap: 10px; /* Space between items */
+  perspective: 1000px; /* Added perspective */
+  transform-style: preserve-3d; /* For 3D transformation */
+}
+
+.cta-container img {
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer; /* Indicate the image is clickable */
+  transition: transform 0.3s ease;
+}
+
+.cta-container img:hover {
+  transform: scale(1.05);
+}
+
+.cta-description {
+  display: none; /* Hide description by default */
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.cta-description.show {
+  display: block; /* Show description when active */
+}

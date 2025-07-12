@@ -1,0 +1,14 @@
+.item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.btn-secondary {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+}

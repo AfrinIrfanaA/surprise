@@ -1,0 +1,43 @@
+/* Item Container Styling */
+.bouquet-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #f7f2e0; /* Slightly different background color for hampers */
+  transition: transform 0.2s;
+}
+
+.bouquet-item:hover {
+  transform: scale(1.03); /* Reduced scale for less dramatic zoom */
+}
+
+/* Card Body Styling */
+.card-body {
+  padding: 1rem;
+}
+
+.card-body h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #5d4037; /* Darker color for hamper titles */
+}
+
+.card-body p {
+  font-size: 1rem;
+  color: #8d6e63; /* A lighter shade for the text */
+}
+
+.card-body button {
+  margin-top: 10px;
+  background-color: #795548; /* Chocolate color for the button */
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card-body button:hover {
+  background-color: #6d4c41; /* Darker shade on hover */
+}

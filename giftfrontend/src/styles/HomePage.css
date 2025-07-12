@@ -1,0 +1,39 @@
+/* src/styles/HomePage.css */
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-row {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .carousel-row img {
+    width: 25%;
+    object-fit: cover;
+  }
+  
+  .offers-section {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .category-item {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .category-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
